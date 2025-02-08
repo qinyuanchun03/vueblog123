@@ -40,11 +40,11 @@ feature:
 repo:
   owner: qinyuanchun03
   name: dochugo
-  url: https://github.com/qinyuanchun03/vueblog123.git
+  url: git@github.com:qinyuanchun03/vueblog123.git
 
 deploy:
   github:
-    repository: https://github.com/qinyuanchun03/vueblog123.git
+    repository: git@github.com:qinyuanchun03/vueblog123.git
     branch: main
     buildDir: dist
     username: qinyuanchun03
