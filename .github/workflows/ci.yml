@@ -4,6 +4,7 @@ on:
     branches:
       - master  # 只在 master 分支推送时触发工作流
   workflow_dispatch:  # 允许手动运行工作流
+      - master 
 permissions:
   contents: write
 jobs:
@@ -37,4 +38,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+<<<<<<<<< Temporary merge branch 1
+=========
           publish_branch: gh-pages  # 指定将内容发布到 gh-pages 分支
+>>>>>>>>> Temporary merge branch 2
