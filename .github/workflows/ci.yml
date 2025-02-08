@@ -38,7 +38,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-<<<<<<<<< Temporary merge branch 1
-=========
           publish_branch: gh-pages  # 指定将内容发布到 gh-pages 分支
->>>>>>>>> Temporary merge branch 2
